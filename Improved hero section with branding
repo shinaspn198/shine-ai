@@ -29,44 +29,56 @@
 
     </nav>
 
-  <section class="hero">
+<!-- Products Section -->
 
-    <div class="hero-left">
+<section class="products">
 
-        <span class="badge">🚀 Powered by Artificial Intelligence</span>
+    <h2>Our AI Products</h2>
 
-        <h1>
-            Building Intelligent
-            <span>AI Solutions</span>
-        </h1>
+    <div class="product-container">
 
-        <p>
-            SHINE AI develops intelligent applications that solve real-world
-            problems using Machine Learning, OCR, Retrieval-Augmented Generation (RAG),
-            and Generative AI.
-        </p>
+        <div class="card">
 
-        <div class="buttons">
-            <!-- https://ai-powered-smart-internship-and-job-fruad-detection-6q8mdbe3kj.streamlit.app/ -->
-            <a href="YOUR_STREAMLIT_URL"
-               target="_blank"
-               class="btn primary">
-                🚀 Launch AI Fraud Detector
+            <h3>🛡️ AI Job & Internship Fraud Detection</h3>
+
+            <p>
+                Detect fake job offers, internship scams,
+                and fraudulent offer letters using AI,
+                OCR, Machine Learning and Gemini AI.
+            </p>
+
+            <a href="YOUR_STREAMLIT_URL" target="_blank">
+                Launch Live Demo →
             </a>
 
-            <a href="https://github.com/shinaspn198"
-               target="_blank"
-               class="btn secondary">
-                ⭐ GitHub
-            </a>
         </div>
 
-    </div>
+        <div class="card">
 
-    <div class="hero-right">
+            <h3>⚙️ SHINE AI</h3>
 
-        <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?w=700"
-             alt="Artificial Intelligence">
+            <p>
+                AI-powered software generation platform
+                that creates complete applications using
+                intelligent agents.
+            </p>
+
+            <span class="coming">Coming Soon</span>
+
+        </div>
+
+        <div class="card">
+
+            <h3>📄 Resume AI</h3>
+
+            <p>
+                Analyze resumes using Artificial Intelligence
+                and receive ATS score and improvement suggestions.
+            </p>
+
+            <span class="coming">Coming Soon</span>
+
+        </div>
 
     </div>
 
