@@ -47,7 +47,7 @@
         </p>
 
         <div class="buttons">
-            <!-- Replace YOUR_STREAMLIT_URL with your actual Streamlit app URL -->
+            <!-- https://ai-powered-smart-internship-and-job-fruad-detection-6q8mdbe3kj.streamlit.app/ -->
             <a href="YOUR_STREAMLIT_URL"
                target="_blank"
                class="btn primary">
