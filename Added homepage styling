@@ -98,3 +98,45 @@ body{
 .secondary:hover{
     background:#2563EB;
 }
+.hero{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    min-height:100vh;
+    padding:120px 8%;
+    gap:60px;
+}
+
+.hero-left{
+    flex:1;
+}
+
+.hero-right{
+    flex:1;
+    text-align:center;
+}
+
+.hero-right img{
+    width:100%;
+    max-width:500px;
+    border-radius:20px;
+}
+
+.hero h1{
+    font-size:60px;
+    line-height:1.2;
+}
+
+.hero h1 span{
+    color:#3B82F6;
+}
+
+.badge{
+    display:inline-block;
+    background:#1E293B;
+    color:#60A5FA;
+    padding:10px 18px;
+    border-radius:30px;
+    margin-bottom:25px;
+    font-size:14px;
+}
