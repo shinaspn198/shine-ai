@@ -29,39 +29,48 @@
 
     </nav>
 
-    <!-- Hero Section -->
+  <section class="hero">
 
-    <section class="hero">
+    <div class="hero-left">
 
-        <div class="hero-content">
+        <span class="badge">🚀 Powered by Artificial Intelligence</span>
 
-            <h1>Building Intelligent AI Solutions</h1>
+        <h1>
+            Building Intelligent
+            <span>AI Solutions</span>
+        </h1>
 
-            <p>
-                Creating AI-powered applications that solve real-world
-                problems using Machine Learning, OCR, RAG and Generative AI.
-            </p>
+        <p>
+            SHINE AI develops intelligent applications that solve real-world
+            problems using Machine Learning, OCR, Retrieval-Augmented Generation (RAG),
+            and Generative AI.
+        </p>
 
-            <div class="buttons">
+        <div class="buttons">
+            <!-- Replace YOUR_STREAMLIT_URL with your actual Streamlit app URL -->
+            <a href="YOUR_STREAMLIT_URL"
+               target="_blank"
+               class="btn primary">
+                🚀 Launch AI Fraud Detector
+            </a>
 
-                <a href="#" class="btn primary">
-                    🚀 Launch Demo
-                </a>
-
-                <a href="https://github.com/shinaspn198"
-                   target="_blank"
-                   class="btn secondary">
-
-                    ⭐ GitHub
-
-                </a>
-
-            </div>
-
+            <a href="https://github.com/shinaspn198"
+               target="_blank"
+               class="btn secondary">
+                ⭐ GitHub
+            </a>
         </div>
 
-    </section>
+    </div>
 
+    <div class="hero-right">
+
+        <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?w=700"
+             alt="Artificial Intelligence">
+
+    </div>
+
+</section>
 <script src="script.js"></script>
 
 </body>
